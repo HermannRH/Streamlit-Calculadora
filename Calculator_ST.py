@@ -122,10 +122,6 @@ cost_components = ['Costos por Detección de Direcciónes Incorrectas ($)', 'Cos
 # Have a check box to ask the user if they want to see the modelo personalizado
 modelo_personalizado = st.checkbox('Mostrar Modelo Personalizado')
 
-
-# Here we plot the number of customers affected by the no model as red, the customers affected by solution as blue as a stacked bar chart, the number of customers.
-import matplotlib.pyplot as plt
-
 # Calculate the number of clients affected by no model
 clients_affected_no_model = total_cases * (true_positive_cases_percentage / 100)
 
